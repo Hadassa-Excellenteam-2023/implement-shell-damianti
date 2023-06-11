@@ -9,9 +9,6 @@ int main()
         
         shell.run();
 
-
-       
-
     }
     catch (const std::exception& e) {
         std::cerr << e.what() << std::endl;
